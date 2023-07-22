@@ -1,0 +1,1 @@
+$0.querySelectorAll('.c5').forEach((item)=>{item.innerText =  jd02[item.innerText]})
