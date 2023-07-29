@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const glob = require("glob");
 
 const { getRealEstateInfo, getBatchRoomInfo } = require("../request/getFuzhou");
 const { regionMap } = require("../const/index");
@@ -34,33 +35,42 @@ function _creteaRealEstate() {
 // _creteaRealEstate();
 
 async function formateInfo() {
-  let { list = [] } = require("../../data/fuzhou/南城县.json");
+  let files = glob.sync("./data/fuzhou/*.json");
 
-  for (const item of list) {
-    let { name = "" } = getReginByCode(item.id?.split("_")[0]) || {};
-    let filePath = `./data/fuzhou_house/${name}`;
-    let fileName = `${item.xmxxxmmc}.json`;
-
-    if (fs.existsSync(path.resolve(filePath, fileName))) {
-      logger.warn(`${name}_${item.xmxxxmmc}  已存在，跳过`);
-      continue;
+  files.forEach(async (file) => {
+    let { list = [] } = require(path.resolve("./", file));
+    if (!list.length) {
+      return;
     }
 
-    logger.info(`当前进度 ${list.indexOf(item) + 1} / ${list.length}`);
-    logger.info(`正在获取 ${name}_${item.xmxxxmmc} ...`);
+    for (const item of list) {
+      let { name = "" } = getReginByCode(item.id?.split("_")[0]) || {};
+      let filePath = `./data/fuzhou_house/${name}`;
+      let fileName = `${item.xmxxxmmc}.json`;
 
-    let result = await getBatchRoomInfo(item);
+      if (fs.existsSync(path.resolve(filePath, fileName))) {
+        logger.warn(`${name}_${item.xmxxxmmc}  已存在，跳过`);
+        continue;
+      }
 
-    logger.info(`获取 ${name}_${item.xmxxxmmc} 成功，写入中...`);
+      logger.info(
+        `当前 ${name} 进度 ${list.indexOf(item) + 1} / ${list.length}`
+      );
+      logger.info(`正在获取 ${name}_${item.xmxxxmmc} ...`);
 
-    writeFileSync({
-      filePath,
-      fileName,
-      jsonData: result,
-    });
+      let result = await getBatchRoomInfo(item);
 
-    logger.info(`写入 ${name}_${item.xmxxxmmc} 成功`);
-  }
+      logger.info(`获取 ${name}_${item.xmxxxmmc} 成功，写入中...`);
+
+      writeFileSync({
+        filePath,
+        fileName,
+        jsonData: result,
+      });
+
+      logger.info(`写入 ${name}_${item.xmxxxmmc} 成功`);
+    }
+  });
 }
 
 formateInfo();

@@ -1,0 +1,35 @@
+{
+	"15栋": [
+		{
+			"roomFh": "'101'",
+			"roomSzc": "1",
+			"roomSzdy": "'1'",
+			"roomGpdj": "20000",
+			"roomGpshdj": "0",
+			"roomJzmj": "133.92",
+			"roomTnjzmj": "131.22",
+			"roomFtmj": "2.7",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'102'",
+			"roomSzc": "1",
+			"roomSzdy": "'1'",
+			"roomGpshdj": "0",
+			"roomJzmj": "146.14",
+			"roomTnjzmj": "143.2",
+			"roomFtmj": "2.94",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'103'",
+			"roomSzc": "1",
+			"roomSzdy": "'1'",
+			"roomGpshdj": "0",
+			"roomJzmj": "133.92",
+			"roomTnjzmj": "131.22",
+			"roomFtmj": "2.7",
+			"dj": "0"
+		}
+	]
+}

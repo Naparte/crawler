@@ -1,0 +1,1329 @@
+{
+	"商业1栋": null,
+	"商业2栋": [
+		{
+			"roomFh": "'101'",
+			"roomSzc": "1",
+			"roomSzdy": "'1'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "508.87",
+			"roomTnjzmj": "508.87",
+			"roomFtmj": "0"
+		}
+	],
+	"商业3栋": [
+		{
+			"roomFh": "'101'",
+			"roomSzc": "1",
+			"roomSzdy": "'1'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "521.47",
+			"roomTnjzmj": "521.47",
+			"roomFtmj": "0"
+		}
+	],
+	"6栋": [
+		{
+			"roomFh": "'101'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "231.75",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "6.2"
+		},
+		{
+			"roomFh": "'102'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'103'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'104'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'105'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'106'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'107'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "231.75",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "6.2"
+		},
+		{
+			"roomFh": "'108'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "232.68",
+			"roomTnjzmj": "213.3",
+			"roomFtmj": "19.38"
+		},
+		{
+			"roomFh": "'109'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "232.68",
+			"roomTnjzmj": "213.3",
+			"roomFtmj": "19.38"
+		},
+		{
+			"roomFh": "'110'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "231.75",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "6.2"
+		},
+		{
+			"roomFh": "'111'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'112'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'113'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'114'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'115'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'116'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "231.75",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "6.2"
+		}
+	],
+	"7栋": [
+		{
+			"roomFh": "'101'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "231.75",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "6.2"
+		},
+		{
+			"roomFh": "'102'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'103'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'104'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'105'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'106'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'107'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "231.75",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "6.2"
+		},
+		{
+			"roomFh": "'108'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "232.68",
+			"roomTnjzmj": "213.3",
+			"roomFtmj": "19.38"
+		},
+		{
+			"roomFh": "'109'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "232.68",
+			"roomTnjzmj": "213.3",
+			"roomFtmj": "19.38"
+		},
+		{
+			"roomFh": "'110'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "231.75",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "6.2"
+		},
+		{
+			"roomFh": "'111'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'112'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'113'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'114'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'115'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "227.89",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.1"
+		},
+		{
+			"roomFh": "'116'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "231.75",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "6.2"
+		}
+	],
+	"8栋": [
+		{
+			"roomFh": "'101'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "232.65",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "7.1"
+		},
+		{
+			"roomFh": "'102'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'103'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'104'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'105'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'106'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'107'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "232.65",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "7.1"
+		},
+		{
+			"roomFh": "'108'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "226.46",
+			"roomTnjzmj": "213.3",
+			"roomFtmj": "13.16"
+		},
+		{
+			"roomFh": "'109'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "226.46",
+			"roomTnjzmj": "213.3",
+			"roomFtmj": "13.16"
+		},
+		{
+			"roomFh": "'110'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "232.65",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "7.1"
+		},
+		{
+			"roomFh": "'111'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'112'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'113'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'114'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'115'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'116'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "232.65",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "7.1"
+		}
+	],
+	"9栋": [
+		{
+			"roomFh": "'101'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "237.42",
+			"roomTnjzmj": "227.88",
+			"roomFtmj": "9.54"
+		},
+		{
+			"roomFh": "'102'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "235.28",
+			"roomTnjzmj": "225.83",
+			"roomFtmj": "9.45"
+		},
+		{
+			"roomFh": "'103'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "235.28",
+			"roomTnjzmj": "225.83",
+			"roomFtmj": "9.45"
+		},
+		{
+			"roomFh": "'104'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "235.28",
+			"roomTnjzmj": "225.83",
+			"roomFtmj": "9.45"
+		},
+		{
+			"roomFh": "'105'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "251.49",
+			"roomTnjzmj": "241.39",
+			"roomFtmj": "10.1"
+		},
+		{
+			"roomFh": "'106'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "232.65",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "7.1"
+		},
+		{
+			"roomFh": "'107'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'108'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'109'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'110'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'111'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "228.77",
+			"roomTnjzmj": "221.79",
+			"roomFtmj": "6.98"
+		},
+		{
+			"roomFh": "'112'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "232.65",
+			"roomTnjzmj": "225.55",
+			"roomFtmj": "7.1"
+		},
+		{
+			"roomFh": "'113'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "272.93",
+			"roomTnjzmj": "261.69",
+			"roomFtmj": "11.24"
+		},
+		{
+			"roomFh": "'114'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "272.93",
+			"roomTnjzmj": "261.69",
+			"roomFtmj": "11.24"
+		},
+		{
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "106.61",
+			"roomTnjzmj": "105.19",
+			"roomFtmj": "1.42"
+		},
+		{
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "82.65",
+			"roomTnjzmj": "81.55",
+			"roomFtmj": "1.1"
+		},
+		{
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "41.33",
+			"roomTnjzmj": "40.78",
+			"roomFtmj": ".55"
+		},
+		{
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "41.33",
+			"roomTnjzmj": "40.78",
+			"roomFtmj": ".55"
+		},
+		{
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "39.67",
+			"roomTnjzmj": "39.14",
+			"roomFtmj": ".53"
+		},
+		{
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "34.34",
+			"roomTnjzmj": "33.88",
+			"roomFtmj": ".46"
+		},
+		{
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "36.16",
+			"roomTnjzmj": "35.68",
+			"roomFtmj": ".48"
+		}
+	],
+	"14栋": [
+		{
+			"roomFh": "'101'",
+			"roomSzc": "1",
+			"roomSzdy": "'1'",
+			"roomHtbah": "'FZ2015010129'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "245.51",
+			"roomTnjzmj": "241.5",
+			"roomFtmj": "4.01"
+		},
+		{
+			"roomFh": "'110'",
+			"roomSzc": "1",
+			"roomSzdy": "'10'",
+			"roomHtbah": "'FZ2015012930'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "247.53",
+			"roomTnjzmj": "243",
+			"roomFtmj": "4.53"
+		},
+		{
+			"roomFh": "'111'",
+			"roomSzc": "1",
+			"roomSzdy": "'11'",
+			"roomHtbah": "'FZ2015012942'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "247.53",
+			"roomTnjzmj": "243",
+			"roomFtmj": "4.53"
+		},
+		{
+			"roomFh": "'112'",
+			"roomSzc": "1",
+			"roomSzdy": "'12'",
+			"roomHtbah": "'FZ2015012943'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "247.53",
+			"roomTnjzmj": "243",
+			"roomFtmj": "4.53"
+		},
+		{
+			"roomFh": "'113'",
+			"roomSzc": "1",
+			"roomSzdy": "'13'",
+			"roomHtbah": "'FZ2015010130'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "247.53",
+			"roomTnjzmj": "243",
+			"roomFtmj": "4.53"
+		},
+		{
+			"roomFh": "'114'",
+			"roomSzc": "1",
+			"roomSzdy": "'14'",
+			"roomHtbah": "'FZ2015010993'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "247.53",
+			"roomTnjzmj": "243",
+			"roomFtmj": "4.53"
+		},
+		{
+			"roomFh": "'115'",
+			"roomSzc": "1",
+			"roomSzdy": "'15'",
+			"roomHtbah": "'FZ2015010133'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "247.53",
+			"roomTnjzmj": "243",
+			"roomFtmj": "4.53"
+		},
+		{
+			"roomFh": "'116'",
+			"roomSzc": "1",
+			"roomSzdy": "'16'",
+			"roomHtbah": "'FZ2016013066'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "247.53",
+			"roomTnjzmj": "243",
+			"roomFtmj": "4.53"
+		},
+		{
+			"roomFh": "'117'",
+			"roomSzc": "1",
+			"roomSzdy": "'17'",
+			"roomHtbah": "'FZ2015012306'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "247.53",
+			"roomTnjzmj": "243",
+			"roomFtmj": "4.53"
+		},
+		{
+			"roomFh": "'118'",
+			"roomSzc": "1",
+			"roomSzdy": "'18'",
+			"roomHtbah": "'FZ2015010992'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "247.53",
+			"roomTnjzmj": "243",
+			"roomFtmj": "4.53"
+		},
+		{
+			"roomFh": "'119'",
+			"roomSzc": "1",
+			"roomSzdy": "'19'",
+			"roomGpdj": "8000",
+			"roomGpshdj": "0",
+			"roomJzmj": "62.42",
+			"roomTnjzmj": "62",
+			"roomFtmj": ".42"
+		},
+		{
+			"roomFh": "'102'",
+			"roomSzc": "1",
+			"roomSzdy": "'2'",
+			"roomHtbah": "'FZ2015010131'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "245.51",
+			"roomTnjzmj": "241.5",
+			"roomFtmj": "4.01"
+		},
+		{
+			"roomFh": "'120'",
+			"roomSzc": "1",
+			"roomSzdy": "'20'",
+			"roomGpdj": "8000",
+			"roomGpshdj": "0",
+			"roomJzmj": "62.42",
+			"roomTnjzmj": "62",
+			"roomFtmj": ".42"
+		},
+		{
+			"roomFh": "'121'",
+			"roomSzc": "1",
+			"roomSzdy": "'21'",
+			"roomGpdj": "8000",
+			"roomGpshdj": "0",
+			"roomJzmj": "44.89",
+			"roomTnjzmj": "44.5",
+			"roomFtmj": ".39"
+		},
+		{
+			"roomFh": "'122'",
+			"roomSzc": "1",
+			"roomSzdy": "'22'",
+			"roomGpdj": "8000",
+			"roomGpshdj": "0",
+			"roomJzmj": "44.89",
+			"roomTnjzmj": "44.5",
+			"roomFtmj": ".39"
+		},
+		{
+			"roomFh": "'103'",
+			"roomSzc": "1",
+			"roomSzdy": "'3'",
+			"roomHtbah": "'FZ2015010132'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "245.51",
+			"roomTnjzmj": "241.5",
+			"roomFtmj": "4.01"
+		},
+		{
+			"roomFh": "'104'",
+			"roomSzc": "1",
+			"roomSzdy": "'4'",
+			"roomHtbah": "'FZ2015010816'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "245.51",
+			"roomTnjzmj": "241.5",
+			"roomFtmj": "4.01"
+		},
+		{
+			"roomFh": "'105'",
+			"roomSzc": "1",
+			"roomSzdy": "'5'",
+			"roomHtbah": "'FZ2015010220'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "245.51",
+			"roomTnjzmj": "241.5",
+			"roomFtmj": "4.01"
+		},
+		{
+			"roomFh": "'106'",
+			"roomSzc": "1",
+			"roomSzdy": "'6'",
+			"roomHtbah": "'FZ2015012941'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "245.51",
+			"roomTnjzmj": "241.5",
+			"roomFtmj": "4.01"
+		},
+		{
+			"roomFh": "'107'",
+			"roomSzc": "1",
+			"roomSzdy": "'7'",
+			"roomHtbah": "'FZ2015010991'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "245.51",
+			"roomTnjzmj": "241.5",
+			"roomFtmj": "4.01"
+		},
+		{
+			"roomFh": "'108'",
+			"roomSzc": "1",
+			"roomSzdy": "'8'",
+			"roomHtbah": "'FZ2016013073'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "245.51",
+			"roomTnjzmj": "241.5",
+			"roomFtmj": "4.01"
+		},
+		{
+			"roomFh": "'109'",
+			"roomSzc": "1",
+			"roomSzdy": "'9'",
+			"roomHtbah": "'FZ2016013158'",
+			"roomGpdj": "3000",
+			"roomGpshdj": "0",
+			"roomJzmj": "247.53",
+			"roomTnjzmj": "243",
+			"roomFtmj": "4.53"
+		},
+		{
+			"roomFh": "'101-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'1'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'110-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'10'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'111-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'11'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'112-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'12'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'113-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'13'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'114-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'14'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'115-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'15'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'116-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'16'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'117-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'17'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'118-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'18'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'102-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'2'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'103-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'3'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'104-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'4'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'105-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'5'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'106-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'6'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'107-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'7'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'108-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'8'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'109-2'",
+			"roomSzc": "2",
+			"roomSzdy": "'9'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'101-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'1'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'110-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'10'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'111-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'11'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'112-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'12'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'113-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'13'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'114-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'14'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'115-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'15'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'116-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'16'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'117-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'17'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'118-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'18'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'102-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'2'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'103-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'3'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'104-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'4'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'105-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'5'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'106-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'6'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'107-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'7'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'108-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'8'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		},
+		{
+			"roomFh": "'109-3'",
+			"roomSzc": "3",
+			"roomSzdy": "'9'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "0",
+			"roomTnjzmj": "0",
+			"roomFtmj": "0"
+		}
+	],
+	"商业18栋": [
+		{
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "0",
+			"roomGpshdj": "0",
+			"roomJzmj": "4080.66",
+			"roomTnjzmj": "3606.36",
+			"roomFtmj": "474.3"
+		}
+	]
+}
