@@ -6,5 +6,8 @@
   "dependencies": {
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "log4js": "^6.9.1"
   }
 }

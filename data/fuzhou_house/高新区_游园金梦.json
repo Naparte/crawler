@@ -1,0 +1,78 @@
+{
+	"7栋加建部分": [
+		{
+			"roomFh": "'D-89'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomHtbah": "'20173572'",
+			"roomGpdj": "12000",
+			"roomGpshdj": "0",
+			"roomJzmj": "85.3",
+			"roomTnjzmj": "82.8",
+			"roomFtmj": "2.5",
+			"dj": "4300"
+		},
+		{
+			"roomFh": "'D-90'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomHtbah": "'20173573'",
+			"roomGpdj": "12000",
+			"roomGpshdj": "0",
+			"roomJzmj": "126.84",
+			"roomTnjzmj": "123.12",
+			"roomFtmj": "3.72",
+			"dj": "4300"
+		},
+		{
+			"roomFh": "'D-1'",
+			"roomSzc": "1",
+			"roomSzdy": "'00'",
+			"roomHtbah": "'20174676'",
+			"roomGpdj": "12000",
+			"roomGpshdj": "0",
+			"roomJzmj": "126.84",
+			"roomTnjzmj": "123.12",
+			"roomFtmj": "3.72",
+			"dj": "4300"
+		},
+		{
+			"roomFh": "'D-2'",
+			"roomSzc": "1",
+			"roomSzdy": "'00'",
+			"roomHtbah": "'20174675'",
+			"roomGpdj": "12000",
+			"roomGpshdj": "0",
+			"roomJzmj": "75.92",
+			"roomTnjzmj": "73.7",
+			"roomFtmj": "2.22",
+			"dj": "4300"
+		}
+	],
+	"13栋加建部分": [
+		{
+			"roomFh": "'D-87'",
+			"roomSzc": "1",
+			"roomSzdy": "'00'",
+			"roomHtbah": "'20173571'",
+			"roomGpdj": "10000",
+			"roomGpshdj": "0",
+			"roomJzmj": "87.36",
+			"roomTnjzmj": "83.66",
+			"roomFtmj": "3.7",
+			"dj": "6000"
+		},
+		{
+			"roomFh": "'D-88'",
+			"roomSzc": "1",
+			"roomSzdy": "'00'",
+			"roomHtbah": "'20174485'",
+			"roomGpdj": "10000",
+			"roomGpshdj": "0",
+			"roomJzmj": "87.36",
+			"roomTnjzmj": "83.66",
+			"roomFtmj": "3.7",
+			"dj": "4300"
+		}
+	]
+}

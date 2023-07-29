@@ -3,10 +3,12 @@ const path = require("path");
 
 const {
   getRealEstateInfo,
-  getHouseInfo,
+  getHouseUrlInfo,
   getRoomInfo,
 } = require("../request/getFuzhou");
 const { regionMap } = require("../const/index");
+const { getReginByCode } = require("./util");
+const { logger } = require("./util");
 
 // 扒取各个区的楼盘数据 保存json文件
 function _creteaRealEstate() {
@@ -20,11 +22,11 @@ function _creteaRealEstate() {
       path.resolve(`./data/fuzhou`, `${item.name}.json`),
       JSON.stringify({ list, totalRow }, null, "\t")
     );
-    console.log(item);
+    logger.info(item);
     result.push(item);
 
     if (index === arr.length - 1) {
-      console.log(result);
+      logger.info(result);
       fs.writeFileSync(
         path.resolve(`./data/fuzhou`, `total.json`),
         JSON.stringify(result, null, "\t")
@@ -35,20 +37,40 @@ function _creteaRealEstate() {
 
 // _creteaRealEstate();
 
-// getHouseInfo({
-//   id: "361001_1466249726285312002",
-//   kfsywzh: "91361002MA3AE9W068",
-//   rownum_: 15,
-//   xmxxaddtime: "2021-12-02 11:35:02",
-//   xmxxghxkmj: "103373",
-//   xmxxid: "1466249726285312002",
-//   xmxxjtzl: "金柅大道以西、规划一路以北",
-//   xmxxjzmj: "73527.22",
-//   xmxxkfs: "抚州威鑫房地产开发有限公司",
-//   xmxxxmbh: "1202",
-//   xmxxxmmc: "时代艺境",
-//   xmxxzds: 19,
-// });
-getRoomInfo({
-  href: "http://www.jxfzfdc.cn/roomDetail?view=statisticsTable&col=announce&xmxxXmbh=&xmxxId=361001_1466249726285312002&xmxxLdid=1544950743897686017",
-});
+async function formateInfo() {
+  let { list = [] } = require("../../data/fuzhou/高新区.json");
+
+  for (const item of list) {
+    let result = {};
+    let { name = "" } = getReginByCode(item.id?.split("_")[0]) || {};
+
+    if (
+      fs.existsSync(
+        path.resolve(`./data/fuzhou_house`, `${name}_${item.xmxxxmmc}.json`)
+      )
+    ) {
+      logger.warn(`${name}_${item.xmxxxmmc}  已存在，跳过`);
+      continue;
+    }
+
+    logger.info(`当前进度 ${list.indexOf(item) + 1} / ${list.length}`);
+    logger.info(`正在获取 ${name}_${item.xmxxxmmc} ...`);
+
+    let urls = await getHouseUrlInfo(item);
+    for (const urlitem of urls) {
+      let data = await getRoomInfo(urlitem);
+      result[urlitem.text] = data;
+    }
+
+    logger.info(`获取 ${name}_${item.xmxxxmmc} 成功，写入中...`);
+
+    fs.writeFileSync(
+      path.resolve(`./data/fuzhou_house`, `${name}_${item.xmxxxmmc}.json`),
+      JSON.stringify(result, null, "\t")
+    );
+
+    logger.info(`写入 ${name}_${item.xmxxxmmc} 成功`);
+  }
+}
+
+formateInfo();

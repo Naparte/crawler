@@ -2,6 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 
 const { regionMap } = require("../const/index");
+const { logger } = require("../mod_fuzhou/util");
 
 // 获取各个地级市楼盘信息
 function getRealEstateInfo(id = 361001) {
@@ -9,9 +10,9 @@ function getRealEstateInfo(id = 361001) {
     return (item.code = id);
   });
   if (!temp) {
-    console.log("未识别的ID", id);
+    logger.warn("未识别的ID", id);
   }
-  console.log(`正在获取${temp.name}--${id}数据 `);
+  logger.info(`正在获取${temp.name}--${id}数据 `);
 
   return axios
     .get(`http://www.jxfzfdc.cn/xqxxListByCode?page=1&limit=10000&code=${id}`)
@@ -19,22 +20,25 @@ function getRealEstateInfo(id = 361001) {
       // 处理成功情况
 
       let { data } = response;
-      console.log(`获取${temp.name}--${id}数据成功`, data);
+      logger.info(`获取${temp.name}--${id}数据成功`, data);
 
       return data;
     })
     .catch(function (error) {
       // 处理错误情况
-      console.error(`获取${temp.name}--${id}数据失败`, error);
+      logger.error(`获取${temp.name}--${id}数据失败`, error);
       return null;
     });
 }
 
-// 楼盘信息
-async function getHouseUrlInfo(options) {
+// 楼盘信息中每一栋的链接
+function getHouseUrlInfo(options) {
   let url = `http://www.jxfzfdc.cn/roomDetail?view=statisticsTable&col=announce&xmxxXmbh=&xmxxId=${options.id}`;
   let base = "http://www.jxfzfdc.cn";
-  return await axios
+
+  logger.info(`正在获取 ${options.xmxxxmmc} 楼盘信息...`);
+
+  return axios
     .get(url)
     .then(function (response) {
       let result = [];
@@ -47,29 +51,27 @@ async function getHouseUrlInfo(options) {
           href: base + item.attribs.href,
         });
       });
-      console.log(result);
+      logger.info(`${options.xmxxxmmc} 获取成功`);
       return result;
     })
     .catch(function (error) {
-      console.error(`${url} 楼盘信息 获取失败`, error);
+      logger.error(`${options.xmxxxmmc} 楼盘信息 获取失败`, error);
       return null;
     });
 }
 
 // 查询房间定价
-async function getRoomInfo(options) {
-  return await axios
+function getRoomInfo(options) {
+  return axios
     .get(options.href)
     .then(function (response) {
       let result = [];
       let { data } = response;
-      debugger;
-      console.log(result);
 
       let arr = data.match(/(var roomFh = '(.+?)';[\s\S]+?var szc = (.+?);)/g);
 
       arr.forEach((str) => {
-        const regex = /var\s+(\w+)\s+=\s+([\d\.]+|'\w+'|\w+\+"")/g;
+        const regex = /var\s+(\w+)\s+=\s+([\d\.]+|'[\w\d-]+')/g;
         let temp;
         const obj = {};
         while ((temp = regex.exec(str)) !== null) {
@@ -80,11 +82,19 @@ async function getRoomInfo(options) {
       return result;
     })
     .catch(function (error) {
-      console.error(`${options.href} 查询房间定价 获取失败`, error);
+      logger.error(`${options.href} 查询房间定价 获取失败`, error);
       return null;
     });
 }
 
+// 批量获取每个栋楼房间信息，count单次获取栋数
+async function getBatchRoomInfo(options, count = 10) {
+  let urls = await getHouseUrlInfo(options);
+  for (const urlitem of urls) {
+    let data = await getRoomInfo(urlitem);
+    result[urlitem.text] = data;
+  }
+}
 module.exports = {
   getRealEstateInfo,
   getHouseUrlInfo,
