@@ -1,13 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 
-const {
-  getRealEstateInfo,
-  getBatchRoomInfo,
-} = require("../request/getFuzhou");
+const { getRealEstateInfo, getBatchRoomInfo } = require("../request/getFuzhou");
 const { regionMap } = require("../const/index");
 const { getReginByCode } = require("./util");
-const { logger } = require("./util");
+const { logger, writeFileSync } = require("./util");
 
 // 扒取各个区的楼盘数据 保存json文件
 function _creteaRealEstate() {
@@ -37,16 +34,14 @@ function _creteaRealEstate() {
 // _creteaRealEstate();
 
 async function formateInfo() {
-  let { list = [] } = require("../../data/fuzhou/市本级.json");
+  let { list = [] } = require("../../data/fuzhou/南城县.json");
 
   for (const item of list) {
     let { name = "" } = getReginByCode(item.id?.split("_")[0]) || {};
+    let filePath = `./data/fuzhou_house/${name}`;
+    let fileName = `${item.xmxxxmmc}.json`;
 
-    if (
-      fs.existsSync(
-        path.resolve(`./data/fuzhou_house`, `${name}_${item.xmxxxmmc}.json`)
-      )
-    ) {
+    if (fs.existsSync(path.resolve(filePath, fileName))) {
       logger.warn(`${name}_${item.xmxxxmmc}  已存在，跳过`);
       continue;
     }
@@ -54,20 +49,15 @@ async function formateInfo() {
     logger.info(`当前进度 ${list.indexOf(item) + 1} / ${list.length}`);
     logger.info(`正在获取 ${name}_${item.xmxxxmmc} ...`);
 
-    // let urls = await getHouseUrlInfo(item);
-    // for (const urlitem of urls) {
-    //   let data = await getRoomInfo(urlitem);
-    //   result[urlitem.text] = data;
-    // }
-
     let result = await getBatchRoomInfo(item);
 
     logger.info(`获取 ${name}_${item.xmxxxmmc} 成功，写入中...`);
 
-    fs.writeFileSync(
-      path.resolve(`./data/fuzhou_house`, `${name}_${item.xmxxxmmc}.json`),
-      JSON.stringify(result, null, "\t")
-    );
+    writeFileSync({
+      filePath,
+      fileName,
+      jsonData: result,
+    });
 
     logger.info(`写入 ${name}_${item.xmxxxmmc} 成功`);
   }
