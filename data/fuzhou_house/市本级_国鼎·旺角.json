@@ -1,0 +1,125 @@
+{
+	"1号楼": [
+		{
+			"roomFh": "'1-1'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "50000",
+			"roomGpshdj": "50000",
+			"roomJzmj": "44.46",
+			"roomTnjzmj": "43.12",
+			"roomFtmj": "1.34",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'1-2'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "50000",
+			"roomGpshdj": "50000",
+			"roomJzmj": "41.42",
+			"roomTnjzmj": "40.18",
+			"roomFtmj": "1.24",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'1-3'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "50000",
+			"roomGpshdj": "50000",
+			"roomJzmj": "40.6",
+			"roomTnjzmj": "39.38",
+			"roomFtmj": "1.22",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'1-4'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "50000",
+			"roomGpshdj": "50000",
+			"roomJzmj": "32.48",
+			"roomTnjzmj": "31.5",
+			"roomFtmj": "0.98",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'1-5'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "50000",
+			"roomGpshdj": "50000",
+			"roomJzmj": "32.87",
+			"roomTnjzmj": "31.88",
+			"roomFtmj": "0.99",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'1-6'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "50000",
+			"roomGpshdj": "50000",
+			"roomJzmj": "40.81",
+			"roomTnjzmj": "39.58",
+			"roomFtmj": "1.23",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'1-7'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "50000",
+			"roomGpshdj": "50000",
+			"roomJzmj": "41.75",
+			"roomTnjzmj": "40.5",
+			"roomFtmj": "1.25",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'1-8'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomGpdj": "50000",
+			"roomGpshdj": "50000",
+			"roomJzmj": "40.96",
+			"roomTnjzmj": "39.73",
+			"roomFtmj": "1.23",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'2-1'",
+			"roomSzc": "2",
+			"roomSzdy": "'0'",
+			"roomGpdj": "30000",
+			"roomGpshdj": "30000",
+			"roomJzmj": "82.63",
+			"roomTnjzmj": "67.5",
+			"roomFtmj": "15.13",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'201'",
+			"roomSzc": "2",
+			"roomSzdy": "'0'",
+			"roomGpdj": "8500",
+			"roomGpshdj": "8500",
+			"roomJzmj": "171.91",
+			"roomTnjzmj": "140.68",
+			"roomFtmj": "31.23",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'301'",
+			"roomSzc": "3",
+			"roomSzdy": "'0'",
+			"roomGpdj": "8500",
+			"roomGpshdj": "8500",
+			"roomJzmj": "178.41",
+			"roomTnjzmj": "154.18",
+			"roomFtmj": "24.23",
+			"dj": "0"
+		}
+	]
+}

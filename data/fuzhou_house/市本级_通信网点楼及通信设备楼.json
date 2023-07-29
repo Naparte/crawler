@@ -1,0 +1,110 @@
+{
+	"通信设备楼": [
+		{
+			"roomFh": "'1-1'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomHtbah": "'FZ2020053241'",
+			"roomGpdj": "7600",
+			"roomGpshdj": "7600",
+			"roomJzmj": "270.38",
+			"roomTnjzmj": "265.2",
+			"roomFtmj": "5.18",
+			"dj": "7515.64"
+		},
+		{
+			"roomFh": "'2-1'",
+			"roomSzc": "2",
+			"roomSzdy": "'0'",
+			"roomGpdj": "7600",
+			"roomGpshdj": "7600",
+			"roomJzmj": "380.98",
+			"roomTnjzmj": "265.2",
+			"roomFtmj": "115.78",
+			"dj": "0"
+		}
+	],
+	"通信网点楼": [
+		{
+			"roomFh": "'1-1'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomHtbah": "'FZ2020053243'",
+			"roomGpdj": "7600",
+			"roomGpshdj": "7600",
+			"roomJzmj": "674.75",
+			"roomTnjzmj": "581.37",
+			"roomFtmj": "93.38",
+			"dj": "7515.64"
+		},
+		{
+			"roomFh": "'2-1'",
+			"roomSzc": "2",
+			"roomSzdy": "'0'",
+			"roomGpdj": "7600",
+			"roomGpshdj": "7600",
+			"roomJzmj": "594.63",
+			"roomTnjzmj": "512.34",
+			"roomFtmj": "82.29",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'3-1'",
+			"roomSzc": "3",
+			"roomSzdy": "'0'",
+			"roomGpdj": "7600",
+			"roomGpshdj": "7600",
+			"roomJzmj": "674.75",
+			"roomTnjzmj": "581.37",
+			"roomFtmj": "93.38",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'4-1'",
+			"roomSzc": "4",
+			"roomSzdy": "'0'",
+			"roomGpdj": "7600",
+			"roomGpshdj": "7600",
+			"roomJzmj": "674.75",
+			"roomTnjzmj": "581.37",
+			"roomFtmj": "93.38",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'5-1'",
+			"roomSzc": "5",
+			"roomSzdy": "'0'",
+			"roomGpdj": "7600",
+			"roomGpshdj": "7600",
+			"roomJzmj": "674.75",
+			"roomTnjzmj": "581.37",
+			"roomFtmj": "93.38",
+			"dj": "0"
+		},
+		{
+			"roomFh": "'6-1'",
+			"roomSzc": "6",
+			"roomSzdy": "'0'",
+			"roomGpdj": "7600",
+			"roomGpshdj": "7600",
+			"roomJzmj": "674.75",
+			"roomTnjzmj": "581.37",
+			"roomFtmj": "93.38",
+			"dj": "0"
+		}
+	],
+	"门卫": [
+		{
+			"roomFh": "'1-1'",
+			"roomSzc": "1",
+			"roomSzdy": "'0'",
+			"roomHtbah": "'FZ2020053242'",
+			"roomGpdj": "7600",
+			"roomGpshdj": "7600",
+			"roomJzmj": "51",
+			"roomTnjzmj": "48",
+			"roomFtmj": "3",
+			"dj": "7515.64"
+		}
+	]
+}

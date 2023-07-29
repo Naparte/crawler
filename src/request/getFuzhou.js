@@ -12,7 +12,7 @@ function getRealEstateInfo(id = 361001) {
   if (!temp) {
     logger.warn("未识别的ID", id);
   }
-  logger.info(`正在获取${temp.name}--${id}数据 `);
+  logger.info(`正在获取 ${temp.name} ${id} 区域数据 `);
 
   return axios
     .get(`http://www.jxfzfdc.cn/xqxxListByCode?page=1&limit=10000&code=${id}`)
@@ -20,7 +20,7 @@ function getRealEstateInfo(id = 361001) {
       // 处理成功情况
 
       let { data } = response;
-      logger.info(`获取${temp.name}--${id}数据成功`, data);
+      logger.info(`成功获取${temp.name}--${id}`, data);
 
       return data;
     })
@@ -36,7 +36,7 @@ function getHouseUrlInfo(options) {
   let url = `http://www.jxfzfdc.cn/roomDetail?view=statisticsTable&col=announce&xmxxXmbh=&xmxxId=${options.id}`;
   let base = "http://www.jxfzfdc.cn";
 
-  logger.info(`正在获取 ${options.xmxxxmmc} 楼盘信息...`);
+  logger.info(`正在获取 ${options.xmxxxmmc} 楼栋信息...`);
 
   return axios
     .get(url)
@@ -48,20 +48,22 @@ function getHouseUrlInfo(options) {
       $(".static_roomNav a").each((index, item) => {
         result.push({
           text: $(item).text(),
+          name: options.xmxxxmmc,
           href: base + item.attribs.href,
         });
       });
-      logger.info(`${options.xmxxxmmc} 获取成功`);
+      logger.info(`成功获取 ${options.xmxxxmmc} 楼栋信息`);
       return result;
     })
     .catch(function (error) {
-      logger.error(`${options.xmxxxmmc} 楼盘信息 获取失败`, error);
+      logger.error(`${options.xmxxxmmc} 楼栋信息 获取失败`, error);
       return null;
     });
 }
 
 // 查询房间定价
 function getRoomInfo(options) {
+  logger.info(`正在获取 ${options.name}  ${options.text} 定价信息...`);
   return axios
     .get(options.href)
     .then(function (response) {
@@ -79,6 +81,7 @@ function getRoomInfo(options) {
         }
         result.push(obj);
       });
+      logger.info(`成功获取 ${options.name} ${options.text} 信息`);
       return result;
     })
     .catch(function (error) {
@@ -89,14 +92,36 @@ function getRoomInfo(options) {
 
 // 批量获取每个栋楼房间信息，count单次获取栋数
 async function getBatchRoomInfo(options, count = 10) {
+  let partArr = [];
+  let result = {};
   let urls = await getHouseUrlInfo(options);
-  for (const urlitem of urls) {
-    let data = await getRoomInfo(urlitem);
-    result[urlitem.text] = data;
+
+  if (!urls) {
+    logger.warn(`${options.xmxxxmmc} 楼栋信息获取为空`);
+    return result;
   }
+
+  urls.forEach((item, index) => {
+    let i = parseInt(index / count);
+    partArr[i] = partArr[i] || [];
+    partArr[i][index % count] = getRoomInfo(item);
+  });
+
+  for (const items of partArr) {
+    let data = await Promise.all(items);
+    let i = partArr.indexOf(items);
+    data.forEach((v, index) => {
+      let urlitem = urls[i * count + index];
+      result[urlitem.text] = v;
+    });
+  }
+
+  return result;
 }
+
 module.exports = {
   getRealEstateInfo,
   getHouseUrlInfo,
   getRoomInfo,
+  getBatchRoomInfo,
 };

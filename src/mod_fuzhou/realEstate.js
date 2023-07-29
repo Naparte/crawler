@@ -3,8 +3,7 @@ const path = require("path");
 
 const {
   getRealEstateInfo,
-  getHouseUrlInfo,
-  getRoomInfo,
+  getBatchRoomInfo,
 } = require("../request/getFuzhou");
 const { regionMap } = require("../const/index");
 const { getReginByCode } = require("./util");
@@ -38,10 +37,9 @@ function _creteaRealEstate() {
 // _creteaRealEstate();
 
 async function formateInfo() {
-  let { list = [] } = require("../../data/fuzhou/高新区.json");
+  let { list = [] } = require("../../data/fuzhou/市本级.json");
 
   for (const item of list) {
-    let result = {};
     let { name = "" } = getReginByCode(item.id?.split("_")[0]) || {};
 
     if (
@@ -56,11 +54,13 @@ async function formateInfo() {
     logger.info(`当前进度 ${list.indexOf(item) + 1} / ${list.length}`);
     logger.info(`正在获取 ${name}_${item.xmxxxmmc} ...`);
 
-    let urls = await getHouseUrlInfo(item);
-    for (const urlitem of urls) {
-      let data = await getRoomInfo(urlitem);
-      result[urlitem.text] = data;
-    }
+    // let urls = await getHouseUrlInfo(item);
+    // for (const urlitem of urls) {
+    //   let data = await getRoomInfo(urlitem);
+    //   result[urlitem.text] = data;
+    // }
+
+    let result = await getBatchRoomInfo(item);
 
     logger.info(`获取 ${name}_${item.xmxxxmmc} 成功，写入中...`);
 
