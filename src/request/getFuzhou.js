@@ -3,6 +3,7 @@ const cheerio = require("cheerio");
 
 const { regionMap } = require("../const/index");
 const { logger } = require("../mod_fuzhou/util");
+const { extractRoomInfos } = require('../utils')
 
 // 获取各个地级市楼盘信息
 function getRealEstateInfo(id = 361001) {
@@ -31,7 +32,7 @@ function getRealEstateInfo(id = 361001) {
     });
 }
 
-// 楼盘信息中每一栋的链接
+/** 楼盘信息中每一栋的链接 */
 function getHouseUrlInfo(options) {
   let url = `http://www.jxfzfdc.cn/roomDetail?view=statisticsTable&col=announce&xmxxXmbh=&xmxxId=${options.id}`;
   let base = "http://www.jxfzfdc.cn";
@@ -118,6 +119,9 @@ async function getBatchRoomInfo(options, count = 10) {
 
   return result;
 }
+
+
+getRealEstateInfo();
 
 module.exports = {
   getRealEstateInfo,

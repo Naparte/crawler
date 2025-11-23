@@ -32,6 +32,8 @@ function _creteaRealEstate() {
   });
 }
 
+
+/** 第一步：先获取所有的小区数据 */
 // _creteaRealEstate();
 
 async function formateInfo() {
@@ -73,4 +75,5 @@ async function formateInfo() {
   });
 }
 
+/** 第二步：获取所有楼盘的信息 */
 formateInfo();
